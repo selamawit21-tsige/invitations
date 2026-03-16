@@ -8,7 +8,7 @@ import {
 
 const content = {
   en: {
-    names: "Alex & Jordan",
+    names: "Abel & fiker",
     saveDate: "Save the Date",
     monthYear: "June 2026",
     venueTitle: "The Venue",
@@ -25,7 +25,7 @@ const content = {
     thankYou: "Thank You",
   },
   am: {
-    names: "አሌክስ እና ጆርዳን",
+    names: "አቤል እና ፍቅር",
     saveDate: "ቀኑን ይያዙ",
     monthYear: "ሰኔ 14, 2018 (ኢ.ካ)",
     venueTitle: "የሰርግ ቦታ",
@@ -120,7 +120,7 @@ export default function WeddingPage() {
             <Gift size={32} style={{ color: '#8B735B', marginBottom: '20px' }} />
             <p style={{ fontSize: '20px', fontWeight: '500', marginBottom: '20px', color: '#1e293b' }}>{t.registry}</p>
             <button 
-                onClick={() => window.open('https://amazon.com', '_blank')} 
+                onClick={() => window.open('https://jiji.com.et/', '_blank')} 
                 style={{ background: '#8B735B', color: 'white', border: 'none', padding: '12px 30px', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold' }}>
               {t.registryBtn}
             </button>
