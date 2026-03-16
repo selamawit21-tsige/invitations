@@ -70,7 +70,7 @@ export default function BaptismPage() {
       {/* 1. HERO SECTION */}
       <section style={{ height: '55vh', background: 'linear-gradient(180deg, #CFE9FF 0%, #F0F9FF 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
         <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} style={{ width: '130px', height: '130px', borderRadius: '50%', border: '5px solid white', overflow: 'hidden', marginBottom: '20px', boxShadow: '0 10px 25px rgba(0,0,0,0.1)' }}>
-          <img src="https://www.shutterstock.com/shutterstock/photos/760196065/display_1500/stock-vector-baptism-card-design-cross-christian-symbol-vector-illustration-760196065.jpg" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Baby Elias" />
+          <img src="https://images.unsplash.com/photo-1508009219918-7d528f269841?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGJhcHRpc218ZW58MHx8MHx8fDA%3D" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Baby Elias" />
         </motion.div>
         <h1 style={{ fontSize: 'clamp(35px, 8vw, 55px)', fontWeight: '800', margin: 0 }}>{t.title}</h1>
         <p style={{ letterSpacing: '3px', textTransform: 'uppercase', fontSize: '14px', marginTop: '10px', opacity: 0.7 }}>{t.subtitle}</p>
